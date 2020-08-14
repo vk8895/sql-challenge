@@ -26,7 +26,7 @@ dept.dept_name
 from employees inner join dept_manager
 on employees.emp_no=dept_manager.emp_no 
 inner join dept
-on dept.dept_no=dept_manager.dept_no
+on dept.dept_no=dept_manager.dept_no;
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -47,7 +47,7 @@ on dept.dept_no=dept_emp.dept_no;
 
 select last_name, first_name, sex
 from employees
-where first_name = 'Hercules' and last_name like 'B%'
+where first_name = 'Hercules' and last_name like 'B%';
 
 ---------------------------------------------------------------------------------------------------------
 
